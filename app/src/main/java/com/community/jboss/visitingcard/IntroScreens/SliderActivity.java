@@ -18,6 +18,8 @@ public class SliderActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slider);
 
+        //TODO: The Slider should appear only on when the app is launched for the first time. - Add appropriate conditions for that.
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +34,10 @@ public class SliderActivity extends AppCompatActivity {
                         }).show();
             }
         });
+
+        // TODO: Create Introduction slides explaining all the functionalities of the app here.
+
+        // TODO: if you're creating an Adapter for the ViewPager create it in the same Package and name it as SlideAdapter
 
     }
 }

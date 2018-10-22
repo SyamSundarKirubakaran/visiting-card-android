@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".IntroScreens.SliderActivity">
 
+    <!--
+    TODO: Should have only 4 Slides - Make use of ViewPager
+    TODO: Each Slide should have an ImageView and a TextView
+    -->
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

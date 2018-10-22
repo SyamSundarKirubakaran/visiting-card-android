@@ -28,6 +28,9 @@
             android:textSize="18dp"
             android:textStyle="bold" />
 
+        <!--
+            TODO: The below TextView should show the VisitingCard count fetched form the Cloud .i.e., Count of Visiting card in the Response form the GET call
+        -->
         <TextView
             android:layout_width="0dp"
             android:gravity="right"
@@ -37,6 +40,11 @@
             android:textSize="15dp"
             android:text="(10)"></TextView>
     </LinearLayout>
+
+
+    <!--
+      TODO: Replace the below TextView with a ListView containing VisitingCards in that GeoFenced Location.
+    -->
 
     <TextView
         android:id="@+id/list_item"

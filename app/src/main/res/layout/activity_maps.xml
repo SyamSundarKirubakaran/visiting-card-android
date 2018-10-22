@@ -6,6 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--
+    TODO: Ensure functionality after updating the Google Maps API Key
+    -->
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"

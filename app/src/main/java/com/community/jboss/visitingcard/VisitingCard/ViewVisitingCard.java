@@ -17,6 +17,8 @@ public class ViewVisitingCard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_visiting_card);
 
+        // TODO: Align FAB to Bottom Right and replace it's icon with a SAVE icon
+        // TODO: On Click on FAB should give out an implicit intent to Contacts app and the intent should contain Name, Email and Phone Number
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,5 +26,7 @@ public class ViewVisitingCard extends AppCompatActivity {
                 Snackbar.make(view, "And that wraps-up the flow.!", Snackbar.LENGTH_LONG).show();
             }
         });
+
+        //TODO: Add ImageView and a number of TextViews to display Selected Visiting Card Information.
     }
 }

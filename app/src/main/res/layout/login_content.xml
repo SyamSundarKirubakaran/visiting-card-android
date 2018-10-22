@@ -8,6 +8,10 @@
     tools:context=".LoginActivity"
     tools:showIn="@layout/login_main">
 
+    <!--
+      TODO: Replace the below TextView by Firebase SignIn UI using Gmail.
+    -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

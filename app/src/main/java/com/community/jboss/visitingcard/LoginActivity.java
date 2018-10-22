@@ -19,6 +19,10 @@ public class LoginActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // TODO: Perform Firebase Authentication using Google Signin.
+        // TODO: Have a Signin with google Button.
+
+        //TODO: Move the FAB to bottom Right and replace it's icon with a check icon
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,6 +31,7 @@ public class LoginActivity extends AppCompatActivity {
                         .setAction("Yes", new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
+                                // TODO: Go to next stage only when the User is Authenticated.
                                 Intent toVisitingCard = new Intent(LoginActivity.this, VisitingCardActivity.class);
                                 startActivity(toVisitingCard);
                             }

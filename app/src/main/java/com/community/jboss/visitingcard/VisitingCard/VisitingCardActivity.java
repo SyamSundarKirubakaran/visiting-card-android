@@ -18,6 +18,14 @@ public class VisitingCardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.visiting_card);
 
+        // TODO: Add a ImageView and a number of EditText to get his/her Visiting Card details (Currently authenticated User)
+
+        // TODO: Add profileImage, Name, Email, PhoneNumber, Github, LinkedIn & Twitter Fields.
+
+        // TODO: Clicking the ImageView should invoke an implicit intent to take an image using camera / pick an image from the Gallery.
+
+        // TODO: Align FAB to Bottom Right and replace it's icon with a SAVE icon
+        // TODO: On Click on FAB should make a network call to store the entered information in the cloud using POST method(Do this in NetworkUtils class)
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

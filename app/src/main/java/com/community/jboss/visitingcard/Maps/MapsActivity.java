@@ -31,6 +31,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         View bottomSheet = findViewById(R.id.bottom_sheet);
         final BottomSheetBehavior behavior = BottomSheetBehavior.from(bottomSheet);
 
+        // TODO: Replace the TextView with a ListView containing list of Visiting cards in that locality using geo-fencing
+
+        // TODO: List item click should result in launching of ViewVisitingCard Acitivity with the info of the tapped Visiting card.
+
         TextView list_item = findViewById(R.id.list_item);
         list_item.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,12 +44,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         });
 
+        //TODO: Create Custom pins for the selected location
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        //TODO: Implement geo-fencing(NOT AS A WHOLE) just visual representation .i.e., a circle of an arbitrary radius with the PIN being the centre of it.
+        //TODO: Make the circle color as @color/colorAccent
     }
 
 
+    // TODO: Replace the stating location with user's current location.
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;

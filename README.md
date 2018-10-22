@@ -1,6 +1,6 @@
 # Visiting Card Android
 
-![Android](https://img.shields.io/badge/Android-Jetpack-green.svg?longCache=true&style=flat-square)   ![In Progress](https://img.shields.io/badge/In--progress-true-green.svg?longCache=true&style=flat-square) <br />
+![Android](https://img.shields.io/badge/GCI-Android-green.svg?longCache=true&style=flat-square)   ![In Progress](https://img.shields.io/badge/In--progress-true-green.svg?longCache=true&style=flat-square) <br />
 
 ## Quick Insight
 An Android application that helps exchanging digital Visiting card in a virtual way while attending meetups and conferences.<br>

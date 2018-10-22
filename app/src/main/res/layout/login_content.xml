@@ -9,14 +9,14 @@
     tools:showIn="@layout/login_main">
 
     <!--
-      TODO: Replace the below TextView by Firebase SignIn UI using Gmail.
+      TODO: Replace the below TextView by Firebase SignIn UI using Email or Google Signin.
     -->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:text="Firebase Login\nUsing Gmail"
+        android:text="Firebase Authentication"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // TODO: Perform Firebase Authentication using Google Signin.
+        // TODO: Perform Firebase Authentication using Email Auth or Google Signin.
         // TODO: Have a Signin with google Button.
 
         //TODO: Move the FAB to bottom Right and replace it's icon with a check icon

@@ -16,6 +16,10 @@
         android:layout_height="match_parent"
         tools:context=".Maps.MapsActivity" />
 
+    <!--
+    TODO: Add a drop FAB to drop the user's visiting card in the currently location (To the cloud using POST method)
+    -->
+
     <include
         layout="@layout/bottom_sheet"/>
 
